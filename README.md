@@ -31,11 +31,12 @@ librosa
 WORKFLOW:
 
 
-	1. After opening and launching the main file - gui.py - the main window of the application appears 
+1. After opening and launching the main file - gui.py - the main window of the application appears 
 
 (the second file check.py doesn't have to be opened, just be in the same direction as gui.py).
 
-	2. By using File->Open a user can choose a *.wav file on his work station.
+
+2. By using File->Open a user can choose a *.wav file on his work station.
 
 Just after that two plots in upper-left and upper-right corners of the window appear.
 
@@ -47,11 +48,13 @@ So, the second plot shows how frequencies spread in time.
 
 But as far as it's a color map, the color brightness also shows the amplitude, just according to the first plot.
 
-	3. After looking at the two plots, a user may decide, what frequencies should be deleted. It's able to choose one band only.
+
+3. After looking at the two plots, a user may decide, what frequencies should be deleted. It's able to choose one band only.
 
 A user types frequency values (of float type) of the borders in the two blank field just under the first plot.
 
-	4. After pushing "Get processed signal" button, two other plots are calculated.
+
+4. After pushing "Get processed signal" button, two other plots are calculated.
 
 The bottom-right plot shows almost the same frequency-time domain as top-right, but all chosen frequencies are deleted now.
 
@@ -59,7 +62,7 @@ At the same time the bottom-left plot shows the new (processed) signal, distrubu
 
 In the case user has to change the band, one can just type new values of borders again, and press the button. Third and forth plots will be overwritten.
 		
-	5. Finally the processed file can be written in *.wav file format by using File->Save.
+5. Finally the processed file can be written in *.wav file format by using File->Save.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
