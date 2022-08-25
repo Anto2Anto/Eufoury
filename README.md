@@ -36,22 +36,22 @@ WORKFLOW:
 (the second file check.py doesn't have to be opened, just be in the same direction as gui.py).
 
 
-2. By using File->Open a user can choose a *.wav file on his work station.
+2. By using File->Open a user can choose a WAV file on their work station.
 
 Just after that two plots in upper-left and upper-right corners of the window appear.
 
-The first displays signal-time field, and how the amplitude evolves over time.
+The first displays signal-time domain, and how the amplitude evolves over time.
 
 All data for the second plot is being calculated in real-time using Short-Time Fourier Transform.
 
-So, the second plot shows how frequencies spread in time. 
+So, the second plot shows frequency-time domain and how frequencies spread in time. 
 
 But as far as it's a color map, the color brightness also shows the amplitude, just according to the first plot.
 
 
 3. After looking at the two plots, a user may decide, what frequencies should be deleted. It's able to choose one band only.
 
-A user types frequency values (of float type) of the borders in the two blank field just under the first plot.
+A user types frequency values (of float type) of the borders in the two blank fields just under the first plot.
 
 
 4. After pushing "Get processed signal" button, two other plots are calculated.
@@ -62,20 +62,27 @@ At the same time the bottom-left plot shows the new (processed) signal, distrubu
 
 In the case user has to change the band, one can just type new values of borders again, and press the button. Third and forth plots will be overwritten.
 		
-5. Finally the processed file can be written in *.wav file format by using File->Save.
+5. Finally the processed file can be written in WAV file format by using File->Save.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 BENEFITS & DRAWBACKS OF THE APPICATION:
 
 
-+ The simpliest user-friendly interface															- Only one frequency band can be chosen
++ The simpliest user-friendly interface
 
-+ Doesn't require resources (space, memory) to be launched					- Only *.wav format can be used in the app.
++ Doesn't require resources (space, memory) to be launched
 
-+ Open-sourced																											- Crashes in case of large files (more then 3 min). Not optimized yet.
++ Open-sourced
 
 + Might be used quickly, when there's no time
   to install bigger applications or programs
 	
 + Informative
+
+
+- Only one frequency band can be chosen
+
+- Only WAV format can be used in the app
+
+- Crashes in case of large files (more then 3 min). Not optimized yet
