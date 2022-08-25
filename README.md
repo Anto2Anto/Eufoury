@@ -66,7 +66,7 @@ In the case user has to change the band, one can just type new values of borders
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-BENEFITS & DRAWBACKS OF THE APPICATION:
+BENEFITS OF THE APPICATION:
 
 
 + The simpliest user-friendly interface
@@ -80,6 +80,8 @@ BENEFITS & DRAWBACKS OF THE APPICATION:
 	
 + Informative
 
+
+DRAWBACKS OF THE APPICATION:
 
 - Only one frequency band can be chosen
 
