@@ -1,5 +1,5 @@
 """
-The web-application changes a .wav file
+The application changes a file in *.wav format
 via Fourier Transform
 
 The application takes a *.wav file as an argument (File->Open).
@@ -164,7 +164,7 @@ class Plot(QtWidgets.QMainWindow, UiMainWindow):
     # todo: processed signal
     def processed_signal(self):
         """
-        After a user have typed borders of a chosen frequency band,
+        After a user has typed borders of a chosen frequency band,
         the current function removes the band
         and creates the bottom-right (frequency-time) and bottom-left (signal-time) plots,
         the bottom right displays frequencies without those were deleted,
@@ -184,7 +184,7 @@ class Plot(QtWidgets.QMainWindow, UiMainWindow):
             orig_y, self.sr = load(self.name)
             n = len(orig_y)
             n_fft = 2048
-            y_pad = util.fix_length(orig_y, size=n + n_fft // 2)  # for saving the same signal after istft
+            y_pad = util.fix_length(orig_y, size=n + n_fft // 2)  # for keeping the same signal amplitude save after istft
             y_stft = stft(y_pad, n_fft=n_fft)
             l = int(float(left) / 10)
             r = int(float(right) / 10)
