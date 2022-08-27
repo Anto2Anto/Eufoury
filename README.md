@@ -1,7 +1,7 @@
 ABOUT:
 
 
-The application is been created for processing audio files of the *.wav format.
+The application is been created for processing audio files of the WAV format.
 
 One separated frequency band can be deleted from the audio file. 
 
@@ -33,7 +33,7 @@ WORKFLOW:
 
 1. After opening and launching the main file - gui.py - the main window of the application appears 
 
-(the second file check.py doesn't have to be opened, just be in the same direction as gui.py).
+(the second file check.py doesn't have to be opened, just be in the same folder as gui.py).
 
 
 2. By using File->Open a user can choose a WAV file on their work station.
@@ -66,12 +66,12 @@ In the case user has to change the band, one can just type new values of borders
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-BENEFITS OF THE APPICATION:
+BENEFITS OF THE APPLICATION:
 
 
 + The simpliest user-friendly interface
 
-+ Doesn't require resources (space, memory) to be launched
++ Doesn't require resources (space, memory) for launching
 
 + Open-sourced
 
@@ -81,10 +81,10 @@ BENEFITS OF THE APPICATION:
 + Informative
 
 
-DRAWBACKS OF THE APPICATION:
+DRAWBACKS OF THE APPLICATION:
 
 - Only one frequency band can be chosen
 
 - Only WAV format can be used in the app
 
-- Crashes in case of large files (more then 3 min). Not optimized yet
+- Crashes in case of large files (more then 3 min). It isn't optimized yet
