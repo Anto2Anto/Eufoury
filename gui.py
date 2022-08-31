@@ -10,7 +10,7 @@ After that the new file can be saved in *.wav format (File->Save).
 """
 import sys
 import numpy as np
-import SoundFile as sf
+import scipy.io.wavfile
 from PyQt6 import QtGui, QtWidgets, QtCore
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
@@ -215,7 +215,7 @@ class Plot(QtWidgets.QMainWindow, UiMainWindow):
     def save_signal(self):
         new_file, _ = QtWidgets.QFileDialog.getSaveFileName(filter='*.wav')
         if new_file:
-            sf.write(new_file, self.last_y, self.sr)
+            scipy.io.wavfile.write(new_file, self.sr, self.last_y)
 
 
 # todo: main
