@@ -10,7 +10,7 @@ After that the new file can be saved in *.wav format (File->Save).
 """
 import sys
 import numpy as np
-import soundfile as sf
+import SoundFile as sf
 from PyQt6 import QtGui, QtWidgets, QtCore
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
