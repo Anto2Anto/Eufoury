@@ -1,4 +1,4 @@
-ABOUT:
+## *ABOUT:*
 
 
 The application is been created for processing audio files of the WAV format.
@@ -11,24 +11,24 @@ I used the Python programming language only, but a user doesn't have to know it 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-REQUIRED LIBRARIES:
+## *REQUIRED LIBRARIES:*
 
 
-sys
+* sys
 
-numpy
+* numpy
 
-soundfile
+* scipy
 
-PyQt6
+* PyQt6
 
-matplotlib
+* matplotlib
 
-librosa
+* librosa
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-WORKFLOW:
+## *WORKFLOW:*
 
 
 1. After opening and launching the main file - gui.py - the main window of the application appears 
@@ -62,11 +62,12 @@ At the same time the bottom-left plot shows the new (processed) signal, distrubu
 
 In the case user has to change the band, one can just type new values of borders again, and press the button. Third and forth plots will be overwritten.
 		
+
 5. Finally the processed file can be written in WAV file format by using File->Save.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-BENEFITS OF THE APPLICATION:
+## *BENEFITS OF THE APPLICATION:*
 
 
 + The simpliest user-friendly interface
@@ -81,7 +82,7 @@ BENEFITS OF THE APPLICATION:
 + Informative
 
 
-DRAWBACKS OF THE APPLICATION:
+## *DRAWBACKS OF THE APPLICATION:*
 
 - Only one frequency band can be chosen
 
