@@ -7,6 +7,11 @@ One separated frequency band can be deleted from the audio file.
 
 It might be useful in case a user wants to get rid of noise in the file.
 
+Here is the example, how it works:
+
+<img src="https://github.com/Anto2Anto/Eufoury/blob/5adbe103743748ce98bc2bfbc8a6d83a596f60e9/example%20how%20it%20works.JPG" 
+     alt="example_how_it_works.jpg" >
+
 I used the Python programming language only, but a user doesn't have to know it at all, one shouldn't code while using the app.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
